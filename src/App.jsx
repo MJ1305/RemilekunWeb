@@ -1,12 +1,16 @@
-function App() {
+import { BrowserRouter, Routes, Route } from "react-router";
+import Navbar from "./Components/Shared/navbar";
+import LandingPage from "./Components/Pages/landingPage";
+import "./App.css";
 
+export default function App() {
   return (
-    <>
-      <section>
-        <h1 className="text-[red]">HELLO WORLD </h1>
-      </section>
-    </>
-  )
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        {/* <Route path="/about" element={<AboutUsPage />} /> */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App

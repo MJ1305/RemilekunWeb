@@ -111,3 +111,8 @@ code {
 } */
 
 @import "tailwindcss";
+
+@theme {
+  --font-lato: "Lato", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+}
