@@ -111,7 +111,7 @@ export default function LandingPage() {
   return (
     <>
       {/* ---------- Hero Section ---------- */}
-      <section className="bg-[#fbfbfb] px-4 py-12 sm:px-6 lg:px-20 lg:py-24 border-[red] border">
+      <section className="bg-[#fbfbfb] px-4 py-12 sm:px-6 lg:px-20 lg:py-24">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-12 lg:flex-row lg:items-center lg:justify-between lg:gap-0">
           {/* Left: copy */}
           <div className="flex w-full flex-col items-start gap-6 lg:min-w-0 lg:flex-1 lg:gap-[52px] lg:max-w-[650px]">
